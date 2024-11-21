@@ -1,0 +1,42 @@
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\bin\Debug\zModelViewer.exe.config
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\bin\Debug\zModelViewer.exe
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\bin\Debug\zModelViewer.pdb
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\obj\Debug\zModelViewer.exe
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\obj\Debug\zModelViewer.pdb
+C:\Users\Igor\Desktop\zModelViewer\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\bin\Debug\zModelViewer.exe.config
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\obj\Debug\zModelViewer.exe
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\obj\Debug\zModelViewer.pdb
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\bin\Debug\zModelViewer.exe
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\bin\Debug\zModelViewer.pdb
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe.config
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.exe
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.pdb
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.pdb
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.exe
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.pdb
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.pdb
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
+C:\Users\Igor\Desktop\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe.config
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\App.config
+K:\_Z_Programming & Design\Part 5\C#\3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe.config
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.exe
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.pdb
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\App.config
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.exe
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\bin\Debug\zModelViewer.pdb
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
