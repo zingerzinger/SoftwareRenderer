@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Zinger\\Desktop\\mygitreps\\SoftwareRenderer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D892650A-94F0-43CE-A4D8-9302F6389EAE}|zModelViewer\\zModelViewer.csproj|c:\\users\\zinger\\desktop\\mygitreps\\softwarerenderer\\zmodelviewer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D892650A-94F0-43CE-A4D8-9302F6389EAE}|zModelViewer\\zModelViewer.csproj|solutionrelative:zmodelviewer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D892650A-94F0-43CE-A4D8-9302F6389EAE}|zModelViewer\\zModelViewer.csproj|c:\\users\\zinger\\desktop\\mygitreps\\softwarerenderer\\zmodelviewer\\rendition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D892650A-94F0-43CE-A4D8-9302F6389EAE}|zModelViewer\\zModelViewer.csproj|solutionrelative:zmodelviewer\\rendition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Zinger\\Desktop\\mygitreps\\SoftwareRenderer\\zModelViewer\\Program.cs",
+              "RelativeDocumentMoniker": "zModelViewer\\Program.cs",
+              "ToolTip": "C:\\Users\\Zinger\\Desktop\\mygitreps\\SoftwareRenderer\\zModelViewer\\Program.cs",
+              "RelativeToolTip": "zModelViewer\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAhwGoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:25:38.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rendition.cs",
+              "DocumentMoniker": "C:\\Users\\Zinger\\Desktop\\mygitreps\\SoftwareRenderer\\zModelViewer\\Rendition.cs",
+              "RelativeDocumentMoniker": "zModelViewer\\Rendition.cs",
+              "ToolTip": "C:\\Users\\Zinger\\Desktop\\mygitreps\\SoftwareRenderer\\zModelViewer\\Rendition.cs",
+              "RelativeToolTip": "zModelViewer\\Rendition.cs",
+              "ViewState": "AgIAACoCAAAAAAAAAAASwDwCAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T19:36:06.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

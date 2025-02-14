@@ -5,9 +5,11 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Text;
 using System.Threading;
+using System.Timers;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace zModelViewer
 {
@@ -25,6 +27,8 @@ namespace zModelViewer
         {
             static bool running = true;
             static Stopwatch timer = new Stopwatch();
+
+            System.Timers.Timer statsTimer = new System.Timers.Timer();
 
             static Graphics Target;
 
@@ -88,6 +92,9 @@ namespace zModelViewer
             string[] config = new string[0];
             string errormessage = string.Empty;
 
+            int frameCount     = 0;
+            int frameCountPrev = 0;
+
             public void MainLoop()
             {
                 Bitmap backbuffer = new Bitmap(clW, clH, System.Drawing.Imaging.PixelFormat.Format32bppRgb);
@@ -115,6 +122,12 @@ namespace zModelViewer
                 mx = Cursor.Position.X;
                 my = Cursor.Position.Y;
                 Cursor.Hide();
+
+                Console.WriteLine("Initialization OK");
+
+                statsTimer.Elapsed += new System.Timers.ElapsedEventHandler(mainForm_StatsTimerElapsed);
+                statsTimer.Interval = 1000;
+                statsTimer.Start();
 
                 while (running)
                 {
@@ -146,12 +159,20 @@ namespace zModelViewer
                     SetDIBitsToDevice(hRef, 0, 0, clW, clH, 0, 0, 0, clH, framebufferPtr, ref bi, 0); // nice!
                     if (timer.ElapsedMilliseconds < 30) { Thread.Sleep((int)(30 - timer.ElapsedMilliseconds)); }
                     dt = (float)timer.Elapsed.TotalSeconds;
+
+                    frameCount++;
                 }
             }
 
             int mx, my;
             bool kw, ka, ks, kd, kq, ke, shift, kjump, kcrouch;
             float Speed, rollSpeed;
+
+            void mainForm_StatsTimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
+            {
+                Console.WriteLine("FPS {0}", frameCount - frameCountPrev);
+                frameCountPrev = frameCount;
+            }
 
             void mainForm_KeyUp(object sender, KeyEventArgs e)
             {
@@ -200,9 +221,17 @@ namespace zModelViewer
                         Rendition.ResetCameraOrientation();
                         break;
 
-                    case Keys.Back:
-                        Rendition.ChangeRenderMode(5); // test flag toggle
-                        break;
+//                    case Keys.Back:
+//                        Rendition.ChangeRenderMode(5); // test flag toggle
+//                        break;
+
+                        // TODO : hmm, more adequate way of switching
+                    case Keys.D1: Rendition.ChangeRenderMode(0); break;
+                    case Keys.D2: Rendition.ChangeRenderMode(1); break;
+                    case Keys.D3: Rendition.ChangeRenderMode(2); break;
+                    case Keys.D4: Rendition.ChangeRenderMode(3); break;
+                    case Keys.D5: Rendition.ChangeRenderMode(4); break;
+                    case Keys.D6: Rendition.ChangeRenderMode(5); break;
 
                     case Keys.Tab:
                         Rendition.ScreenShot();

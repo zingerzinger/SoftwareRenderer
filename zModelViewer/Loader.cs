@@ -30,6 +30,9 @@ namespace zModelViewer
                 g.Dispose();
             }
 
+            if (ok) { Console.WriteLine("Loader: loaded texture {0} OK", path); }
+            else    { Console.WriteLine("Loader: loaded texture {0} FAIL, error: {1}", path, errormessage); }
+
             return ok;
         }
 
@@ -81,6 +84,9 @@ namespace zModelViewer
             model.normals = normals.Count == 0 ? (new Vec3D[] { new Vec3D() }) : normals.ToArray();
             model.polys = triangles.ToArray();
             model.R = (float)Math.Sqrt(maxlen);// * len; // equals 1f
+
+            if (ok) { Console.WriteLine("Loader: loaded model {0} OK", path); }
+            else    { Console.WriteLine("Loader: loaded model {0} FAIL, error: {1}", path, errormessage); }
 
             return ok;
         }
@@ -347,6 +353,8 @@ namespace zModelViewer
 
                 rbodies[i] = new Body(bverts[i].ToArray(), bodyedges, bodies[i].ToArray(), bodyorigin, bodyR);
             }
+
+            Console.WriteLine("Loader: loaded physical model : {0} bodies", rbodies.Length);
 
             return rbodies;
         }

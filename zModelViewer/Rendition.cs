@@ -273,7 +273,6 @@ namespace zModelViewer
         {
             camYaw   -= dyaw   * 0.002f;
             camPitch -= dpitch * 0.002f;
-            //camRoll  += droll  * 0.02f; // broken, fuck it
 
             // pi/2 1.570796f, pi*2 6.283185f
 
@@ -340,7 +339,7 @@ namespace zModelViewer
                               0f, 0f, 0f, 0f);
         }
 
-        public static void Render(float dt, Vec3D position) // ебаный врот, какое же говно тут творится
+        public static void Render(float dt, Vec3D position)
         {
             if (rm_wireframe) { for (int i = 0; i < framebuffer.Length; i++) { framebuffer[i] =              0; } }
                                 for (int i = 0; i < zbuffer.Length;     i++) { zbuffer[i]     = float.MaxValue; }
@@ -827,7 +826,7 @@ namespace zModelViewer
             topn    = -new Vec3D( 0f,  cv, sv);
             bottomn = -new Vec3D( 0f, -cv, sv);
 
-            /* fucked up!
+            /*
             right  = (float)Math.Tan(hfov * 0.5f); // ^ -z   *-----------*    ^ +y  ____
             left   = -right;                       // |       \    f    /     |    / t  |
             top    = (float)Math.Tan(vfov * 0.5f); // |        \l     r/      |   <n   f|
@@ -848,7 +847,7 @@ namespace zModelViewer
                    -Vec3D.Dot(MOCS, topn)    < meshR &&
                    -Vec3D.Dot(MOCS, bottomn) < meshR;
             /*
-            //near, far, left, right, bottom, top // ... culling with plane slopes, fucked up
+            //near, far, left, right, bottom, top // ... culling with plane slopes
             return MOCS.z - meshR  <= -zNear &&
                    MOCS.z - meshR  >= -zFar  &&
                    MOCS.x + meshR  >= -(MOCS.z - meshR) * left   &&

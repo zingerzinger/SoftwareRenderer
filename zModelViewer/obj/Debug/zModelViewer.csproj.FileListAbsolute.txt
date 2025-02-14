@@ -40,3 +40,14 @@ J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\b
 J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csprojResolveAssemblyReference.cache
 J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
 J:\Programming & Design\cs_3D rendering endeavours\zModelViewer4c\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.Cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\bin\Debug\App.config
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\bin\Debug\zModelViewer.exe.config
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\bin\Debug\zModelViewer.exe
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\bin\Debug\zModelViewer.pdb
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.csproj.AssemblyReference.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.Properties.Resources.resources
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.csproj.GenerateResource.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.csproj.CoreCompileInputs.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelVi.B8216B60.Up2Date
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.exe
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\zModelViewer\obj\Debug\zModelViewer.pdb

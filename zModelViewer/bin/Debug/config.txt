@@ -1,4 +1,4 @@
-level.obj
+levelsss.obj
 leveltexture.bmp
-1024
-570
+1280
+720
