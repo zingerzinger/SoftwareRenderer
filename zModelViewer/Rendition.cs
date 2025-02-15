@@ -836,25 +836,25 @@ namespace zModelViewer
 
         static Vec3D leftn, rightn, topn, bottomn;
 
-        static bool BoundingSphereInFrustum()
-        {
-            Vec3D MOCS = modelorigin * CAMERAMATRIX.Transponse(); // transform mesh origin to camera space
-
-            return -(MOCS.z - meshR) >= zNear &&
-                   -(MOCS.z + meshR) <= zFar  &&
-                   -Vec3D.Dot(MOCS, leftn)   < meshR &&
-                   -Vec3D.Dot(MOCS, rightn)  < meshR &&
-                   -Vec3D.Dot(MOCS, topn)    < meshR &&
-                   -Vec3D.Dot(MOCS, bottomn) < meshR;
-            /*
-            //near, far, left, right, bottom, top // ... culling with plane slopes
-            return MOCS.z - meshR  <= -zNear &&
-                   MOCS.z - meshR  >= -zFar  &&
-                   MOCS.x + meshR  >= -(MOCS.z - meshR) * left   &&
-                   MOCS.x - meshR  <= -(MOCS.z - meshR) * right;//  &&
-                   //(MOCS.z - meshR) >= -(MOCS.y - meshR) * bottom;// &&
-                   //MOCS.x - meshR <= (MOCS.z - meshR) * top;
-             */
-        }
+//        static bool BoundingSphereInFrustum()
+//        {
+//            Vec3D MOCS = modelorigin * CAMERAMATRIX.Transponse(); // transform mesh origin to camera space
+//
+//            return -(MOCS.z - meshR) >= zNear &&
+//                   -(MOCS.z + meshR) <= zFar  &&
+//                   -Vec3D.Dot(MOCS, leftn)   < meshR &&
+//                   -Vec3D.Dot(MOCS, rightn)  < meshR &&
+//                   -Vec3D.Dot(MOCS, topn)    < meshR &&
+//                   -Vec3D.Dot(MOCS, bottomn) < meshR;
+//            /*
+//            //near, far, left, right, bottom, top // ... culling with plane slopes
+//            return MOCS.z - meshR  <= -zNear &&
+//                   MOCS.z - meshR  >= -zFar  &&
+//                   MOCS.x + meshR  >= -(MOCS.z - meshR) * left   &&
+//                   MOCS.x - meshR  <= -(MOCS.z - meshR) * right;//  &&
+//                   //(MOCS.z - meshR) >= -(MOCS.y - meshR) * bottom;// &&
+//                   //MOCS.x - meshR <= (MOCS.z - meshR) * top;
+//             */
+//        }
     }
 }

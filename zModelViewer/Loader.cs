@@ -44,7 +44,6 @@ namespace zModelViewer
             {
                 s = System.IO.File.ReadAllText(path, Encoding.ASCII);
                 s = s.Replace(" \r", "\n");
-                s = s.Replace('.', ',');
             }
             catch
             {
@@ -85,8 +84,17 @@ namespace zModelViewer
             model.polys = triangles.ToArray();
             model.R = (float)Math.Sqrt(maxlen);// * len; // equals 1f
 
-            if (ok) { Console.WriteLine("Loader: loaded model {0} OK", path); }
-            else    { Console.WriteLine("Loader: loaded model {0} FAIL, error: {1}", path, errormessage); }
+            if (ok) {
+                Console.WriteLine("Loader: loaded model {0} OK", path);
+                Console.WriteLine("{0} vertices\n{1} tex coordinates\n{2} normals\n{3} polys",
+                    model.vertices.Length,
+                    model.tcoords .Length,
+                    model.normals .Length,
+                    model.polys   .Length
+                    );
+            } else {
+                Console.WriteLine("Loader: loaded model {0} FAIL, error: {1}", path, errormessage);
+            }
 
             return ok;
         }
