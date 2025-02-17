@@ -146,12 +146,15 @@
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(SolutionDir)config.txt" "$(SolutionDir)build"
+
+copy /Y "$(SolutionDir)Resources\collision.obj" "$(SolutionDir)build"
+copy /Y "$(SolutionDir)Resources\level.obj" "$(SolutionDir)build"
+copy /Y "$(SolutionDir)Resources\levelsky.obj" "$(SolutionDir)build"
+copy /Y "$(SolutionDir)Resources\leveltexture.bmp" "$(SolutionDir)build"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
+    <PreBuildEvent>copy /Y "$(SolutionDir)libs\*.dll" "$(SolutionDir)build"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
