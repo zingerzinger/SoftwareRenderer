@@ -1,20 +1,20 @@
-# zModelViewer
+# SoftwareRenderer
 
-zModelViewer is a simple game engine that inludes:
+SoftwareRenderer is a simple game engine that inludes:
 
 - resource loader
 - software renderer
 - physics engine
 - sound subsystem
 
-Use MSVC ~2017 for building and having fun!
+<b>Build & Run:</b> <br>
 
-The repository also contains:
+1. Install [.Net SDK 9](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+2. ```> dotnet build```
+3. ```> cd build```
+4. ```> SoftwareRenderer.exe```
 
-- game world graphical model designed in Blender
-- game world collision model designed in Blender
-- some screenshots
-- sounds
+See the [expected execution results...](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/works.mp4)
 
 ![](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/scr_635745297504847074.png)
 ![](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/scr_635745297525709125.png)
