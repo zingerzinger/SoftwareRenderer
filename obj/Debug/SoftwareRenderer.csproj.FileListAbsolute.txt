@@ -1,0 +1,11 @@
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\build\App.config
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\build\SoftwareRenderer.exe.config
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\build\SoftwareRenderer.exe
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\build\SoftwareRenderer.pdb
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.csproj.AssemblyReference.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.Properties.Resources.resources
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.csproj.GenerateResource.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.csproj.CoreCompileInputs.cache
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\Software.B8689179.Up2Date
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.exe
+C:\Users\Zinger\Desktop\mygitreps\SoftwareRenderer\obj\Debug\SoftwareRenderer.pdb

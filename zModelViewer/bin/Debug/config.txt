@@ -1,4 +1,0 @@
-level.obj
-leveltexture.bmp
-1024
-570
