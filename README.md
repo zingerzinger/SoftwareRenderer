@@ -14,7 +14,7 @@ SoftwareRenderer is a simple game engine that inludes:
 3. ```> cd build```
 4. ```> SoftwareRenderer.exe```
 
-See the [expected execution results...](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/works.mp4)
+See the [expected execution results...](https://youtu.be/oXdw0_rw2n4)
 
 ![](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/scr_635745297504847074.png)
 ![](https://github.com/zingerzinger/SoftwareRenderer/blob/master/screenshots/scr_635745297525709125.png)
